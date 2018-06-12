@@ -1577,7 +1577,7 @@
       <Name>Y.ZSZ.BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\Y.ZSZ.CoreMvc\Y.ZSZ.CoreMvc.csproj">
-      <Project>{454dd2b9-3c37-4b81-ad83-33e872be5433}</Project>
+      <Project>{cc7c16b1-3f69-4109-9f78-7ee17ec10e12}</Project>
       <Name>Y.ZSZ.CoreMvc</Name>
     </ProjectReference>
     <ProjectReference Include="..\Y.ZSZ.Core\Y.ZSZ.Core.csproj">
