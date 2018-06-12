@@ -1,0 +1,231 @@
+2018-05-28 22:45:49,902 [30] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 22:45:49 +08:00
+
+2018-05-28 22:45:50,660 [30] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 22:45:50,660 [30] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 22:45:50,661 [30] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 22:45:50 +08:00
+
+2018-05-28 22:45:50,671 [30] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 8 ms with result: SqlDataReader
+
+2018-05-28 22:45:50,671 [30] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 22:45:50,675 [30] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 22:45:50 +08:00
+
+2018-05-28 23:13:43,634 [17] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:13:43 +08:00
+
+2018-05-28 23:13:43,635 [17] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:13:43,635 [17] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:13:43,635 [17] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:13:43 +08:00
+
+2018-05-28 23:13:43,643 [17] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 7 ms with result: SqlDataReader
+
+2018-05-28 23:13:43,644 [17] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:13:43,644 [17] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:13:43 +08:00
+
+2018-05-28 23:14:37,366 [19] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:14:37 +08:00
+
+2018-05-28 23:14:37,366 [19] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:14:37,366 [19] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:14:37,366 [19] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:14:37 +08:00
+
+2018-05-28 23:14:37,366 [19] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 0 ms with result: SqlDataReader
+
+2018-05-28 23:14:37,367 [19] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:14:37,367 [19] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:14:37 +08:00
+
+2018-05-28 23:37:48,398 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:37:48 +08:00
+
+2018-05-28 23:37:49,152 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:37:49,152 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:37:49,152 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:37:49 +08:00
+
+2018-05-28 23:37:49,163 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 9 ms with result: SqlDataReader
+
+2018-05-28 23:37:49,163 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:37:49,167 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:37:49 +08:00
+
+2018-05-28 23:37:53,209 [45] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:37:53 +08:00
+
+2018-05-28 23:37:53,210 [45] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:37:53,210 [45] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:37:53,210 [45] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:37:53 +08:00
+
+2018-05-28 23:37:53,210 [45] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 0 ms with result: SqlDataReader
+
+2018-05-28 23:37:53,210 [45] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:37:53,210 [45] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:37:53 +08:00
+
+2018-05-28 23:37:54,735 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:37:54 +08:00
+
+2018-05-28 23:37:54,735 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:37:54,736 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:37:54,736 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:37:54 +08:00
+
+2018-05-28 23:37:54,736 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 0 ms with result: SqlDataReader
+
+2018-05-28 23:37:54,736 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:37:54,736 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:37:54 +08:00
+
+2018-05-28 23:38:21,359 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:38:21 +08:00
+
+2018-05-28 23:38:22,062 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:38:22,062 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:38:22,062 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:38:22 +08:00
+
+2018-05-28 23:38:22,070 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 7 ms with result: SqlDataReader
+
+2018-05-28 23:38:22,070 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:38:22,074 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:38:22 +08:00
+
+2018-05-28 23:38:32,601 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:38:32 +08:00
+
+2018-05-28 23:38:32,601 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:38:32,601 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:38:32,601 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:38:32 +08:00
+
+2018-05-28 23:38:32,602 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 0 ms with result: SqlDataReader
+
+2018-05-28 23:38:32,602 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:38:32,602 [8] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:38:32 +08:00
+
+2018-05-28 23:39:03,108 [11] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:39:03 +08:00
+
+2018-05-28 23:39:03,108 [11] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:39:03,108 [11] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:39:03,108 [11] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:39:03 +08:00
+
+2018-05-28 23:39:03,108 [11] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 0 ms with result: SqlDataReader
+
+2018-05-28 23:39:03,108 [11] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:39:03,108 [11] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:39:03 +08:00
+
+2018-05-28 23:39:16,117 [6] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:39:16 +08:00
+
+2018-05-28 23:39:16,118 [6] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:39:16,118 [6] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:39:16,118 [6] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:39:16 +08:00
+
+2018-05-28 23:39:16,118 [6] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 0 ms with result: SqlDataReader
+
+2018-05-28 23:39:16,118 [6] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:39:16,118 [6] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:39:16 +08:00
+
+2018-05-28 23:41:43,571 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Opened connection at 2018/5/28 23:41:43 +08:00
+
+2018-05-28 23:41:43,571 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Description] AS [Description], 
+    [Extent1].[Name] AS [Name], 
+    [Extent1].[IsDelete] AS [IsDelete], 
+    [Extent1].[CreateDate] AS [CreateDate], 
+    [Extent1].[DeleteDate] AS [DeleteDate]
+    FROM [dbo].[T_Permissions] AS [Extent1]
+    WHERE 0 = [Extent1].[IsDelete]
+2018-05-28 23:41:43,571 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:41:43,571 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Executing at 2018/5/28 23:41:43 +08:00
+
+2018-05-28 23:41:43,572 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：-- Completed in 0 ms with result: SqlDataReader
+
+2018-05-28 23:41:43,572 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：
+
+2018-05-28 23:41:43,572 [5] DEBUG Y.ZSZ.Entity.DbContextZSZ - $*EF执行SQL*$：Closed connection at 2018/5/28 23:41:43 +08:00
+

@@ -1,0 +1,221 @@
+﻿@model HouseAddShowModel
+@{
+                /**/
+
+                ViewBag.Title = "Add";
+                Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section headScript
+    {
+    <link href="~/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+}
+
+<div class="pd-20">
+    <form method="post" class="form form-horizontal" id="form-house-add">
+
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>区域：</label>
+            <div class="formControls col-3">
+                <span class="select-box">
+                    <select class="select" name="regionId">
+                        @foreach (var region in Model.RegionDTOs)
+                        {
+                            <option value="@region.Id">@region.Name</option>
+                        }
+                    </select>
+                </span>
+            </div>
+            <div class="col-2"> </div>
+
+            <label class="form-label col-1"><span class="c-red">*</span>小区：</label>
+            <div class="formControls col-3">
+                <span class="select-box">
+                    <select class="select" name="CommunityId">
+                        @foreach (var community in Model.CommunityDTOs)
+                        {
+                            <option value="@community.Id">@community.Name</option>
+                        }
+                    </select>
+                </span>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>户型：</label>
+            <div class="formControls col-3">
+                <span class="select-box">
+                    <select class="select" name="RoomTypeId">
+                        @foreach (var houseType in Model.DictionaryDTOs.Where(s => s.type == "houseType"))
+                        {
+                            <option value="@houseType.Id">@houseType.Name</option>
+                        }
+                    </select>
+                </span>
+            </div>
+            <div class="col-2"> </div>
+
+            <label class="form-label col-1"><span class="c-red">*</span>状态：</label>
+            <div class="formControls col-3">
+                <span class="select-box">
+                    <select class="select" name="StatusId">
+                        @foreach (var status in Model.DictionaryDTOs.Where(s => s.type == "status"))
+                        {
+                            <option value="@status.Id">@status.Name</option>
+                        }
+                    </select>
+                </span>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>装修：</label>
+            <div class="formControls col-3">
+                <span class="select-box">
+                    <select class="select" name="DecorationId">
+                        @foreach (var decoration in Model.DictionaryDTOs.Where(s => s.type == "decoration"))
+                        {
+                            <option value="@decoration.Id">@decoration.Name</option>
+                        }
+                    </select>
+                </span>
+            </div>
+            <div class="col-2"> </div>
+
+            <label class="form-label col-1"><span class="c-red">*</span>类型：</label>
+            <div class="formControls col-3">
+                <span class="select-box">
+                    <select class="select" name="TypeId">
+                        @foreach (var type in Model.DictionaryDTOs.Where(s => s.type == "type"))
+                        {
+                            <option value="@type.Id">@type.Name</option>
+                        }
+                    </select>
+                </span>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>总楼层：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="TotalFloot" name="TotalFloot" datatype="n" nullmsg="总楼层不能为空">
+            </div>
+            <div class="col-2"> </div>
+
+            <label class="form-label col-1"><span class="c-red">*</span>楼层：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="FlootIndex" name="FlootIndex" datatype="n" nullmsg="楼层不能为空">
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>朝向：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="Direction" name="Direction" datatype="*2-16" nullmsg="朝向不能为空">
+            </div>
+            <div class="col-2"> </div>
+
+            <label class="form-label col-1"><span class="c-red">*</span>月租金：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="MonthlyRent" name="MonthlyRent" datatype="n" nullmsg="月租金不能为空">
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>面积：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="Area" name="Area" datatype="*2-16" nullmsg="朝向不能为空">
+            </div>
+            <div class="col-2"> </div>
+
+            <label class="form-label col-1"><span class="c-red">*</span>月租金：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="MonthlyRent" name="MonthlyRent" datatype="n" nullmsg="月租金不能为空">
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>入住日期：</label>
+            <div class="formControls col-3">
+                <input type="text" name="CheckInDate" onfocus="WdatePicker({minDate:'#F{\'%y-%M-%d\'}'})" id="checkInDate" class="input-text Wdate">
+            </div>
+            <div class="col-2"> </div>
+            <label class="form-label col-1"><span class="c-red">*</span>看房日期：</label>
+            <div class="formControls col-3">
+                <input type="text" name="LookableDate" onfocus="WdatePicker({minDate:'#F{\'%y-%M-%d\'}'})" id="checkInDate" class="input-text Wdate">
+            </div>
+            <div class="col-2"> </div>
+
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1"><span class="c-red">*</span>房东电话：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="OwnerPhone" name="OwnerPhone" datatype="m" nullmsg="房东电话不能为空">
+            </div>
+            <div class="col-2"> </div>
+
+            <label class="form-label col-1"><span class="c-red">*</span>房东姓名：</label>
+            <div class="formControls col-3">
+                <input type="text" class="input-text" value="" placeholder="" id="OwnerName" name="OwnerName" datatype="*2-16" nullmsg="房东姓名不能为空">
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-1">地址：</label>
+            <div class="formControls col-3">
+                <textarea name="Address" datatype="*" nullmsg="地址不能为空" class="textarea" placeholder="房源地址...1000个字符以内" dragonfly="true" onKeyUp="textarealength(this,1000)"></textarea>
+                <p class="textarea-numberbar"><em class="textarea-length">0</em>/1000</p>
+            </div>
+            <div class="col-2"> </div>
+            <label class="form-label col-1">描述：</label>
+            <div class="formControls col-3">
+                <textarea name="Description" class="textarea" placeholder="房源描述...1000个字符以内" dragonfly="true" onKeyUp="textarealength(this,1000)"></textarea>
+                <p class="textarea-numberbar"><em class="textarea-length">0</em>/1000</p>
+            </div>
+            <div class="col-2"> </div>
+        </div>
+        <div class="row cl">
+            <div class="col-3 col-offset-9">
+                <input class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</div>
+
+@section footScripts
+{
+    <script type="text/javascript" src="~/lib/Validform/5.3.2/Validform.min.js"></script>
+    <script type="text/javascript" src="~/lib/My97DatePicker/WdatePicker.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            var addForm = $("#form-house-add").Validform({
+                tiptype: 2,
+                callback: function (form) {
+                    form[0].submit();
+                    var index = parent.layer.getFrameIndex(window.name);
+                    parent.$('.btn-refresh').click();
+                    parent.layer.close(index);
+                }
+            });
+
+            $('.btn-primary').click(function () {
+                if (addForm.check(false)) {
+                    var data = $('#form-house-add').serializeArray();
+                    $.ajax({
+                        url: '/House/Add',
+                        type: 'post',
+                        dataType: 'json',
+                        data: data,
+                        success: function (data) {
+                            //if (data.status == "ok") {
+                            //     layer_close();
+                            //}
+                            parent.location.reload();
+                        }
+                    })
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,8 @@
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\bin\Debug\Y.ZSZ.Core.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\bin\Debug\Y.ZSZ.Core.pdb
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\bin\Debug\Newtonsoft.Json.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\bin\Debug\Newtonsoft.Json.xml
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\obj\Debug\Y.ZSZ.Core.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\obj\Debug\Y.ZSZ.Core.pdb
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\obj\Debug\Y.ZSZ.Core.csproj.CoreCompileInputs.cache
+D:\项目开发\Y.ZSZ\Y.ZSZ.Core\obj\Debug\Y.ZSZ.Core.csproj.CopyComplete

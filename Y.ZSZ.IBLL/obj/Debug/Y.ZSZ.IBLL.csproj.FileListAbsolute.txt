@@ -1,0 +1,9 @@
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\bin\Debug\Y.ZSZ.IBLL.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\bin\Debug\Y.ZSZ.IBLL.pdb
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\bin\Debug\Y.ZSZ.DTO.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\bin\Debug\Y.ZSZ.DTO.pdb
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\obj\Debug\Y.ZSZ.IBLL.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\obj\Debug\Y.ZSZ.IBLL.pdb
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\obj\Debug\Y.ZSZ.IBLL.csprojAssemblyReference.cache
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\obj\Debug\Y.ZSZ.IBLL.csproj.CoreCompileInputs.cache
+D:\项目开发\Y.ZSZ\Y.ZSZ.IBLL\obj\Debug\Y.ZSZ.IBLL.csproj.CopyComplete

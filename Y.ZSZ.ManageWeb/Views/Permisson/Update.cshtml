@@ -1,0 +1,68 @@
+﻿@model PermissionDTO
+@{
+    ViewBag.Title = "更新";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section headScript
+    {
+    <link href="~/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+}
+<div class="pd-20">
+    <form  class="form form-horizontal" id="form-admin-add">
+        <input type="hidden" value="@Model.Id" name="id" />
+        <div class="row cl">
+            <label class="form-label col-3"><span class="c-red">*</span>权限名称：</label>
+            <div class="formControls col-5">
+                <input type="text" class="input-text" value="@Model.Name" placeholder="" id="name" name="name" datatype="*2-16" nullmsg="权限名不能为空">
+            </div>
+            <div class="col-4"> </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-3">描述：</label>
+            <div class="formControls col-5">
+                <textarea name="description" cols="" rows="" class="textarea" placeholder="权限描述...1000个字符以内" dragonfly="true" onKeyUp="textarealength(this,1000)">@Model.Description</textarea>
+                <p class="textarea-numberbar"><em class="textarea-length">@(Model.Description ==""? Model.Description.Length:0)</em>/1000</p>
+            </div>
+            <div class="col-4"> </div>
+        </div>
+        <div class="row cl">
+            <div class="col-9 col-offset-3">
+                <input class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</div>
+@section footScripts
+{
+    <script type="text/javascript" src="~/lib/Validform/5.3.2/Validform.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+
+            $("#form-admin-add").Validform({
+                tiptype: 2,
+                callback: function (form) {
+                    form[0].submit();
+                    var index = parent.layer.getFrameIndex(window.name);
+                    parent.$('.btn-refresh').click();
+                    parent.layer.close(index);
+                }
+            });
+
+            $('.btn-primary').click(function () {
+                var data = $('#form-admin-add').serializeArray();
+                $.ajax({
+                    url: '/Permisson/Update',
+                    type: 'post',
+                    dataType: 'json',
+                    data:data,
+                    success: function (data)
+                    {
+                        parent.location.reload();
+                    }
+                })
+
+            });
+        });
+    </script>
+}

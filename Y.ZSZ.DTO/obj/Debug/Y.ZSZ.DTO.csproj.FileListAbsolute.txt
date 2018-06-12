@@ -1,0 +1,5 @@
+D:\项目开发\Y.ZSZ\Y.ZSZ.DTO\bin\Debug\Y.ZSZ.DTO.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.DTO\bin\Debug\Y.ZSZ.DTO.pdb
+D:\项目开发\Y.ZSZ\Y.ZSZ.DTO\obj\Debug\Y.ZSZ.DTO.dll
+D:\项目开发\Y.ZSZ\Y.ZSZ.DTO\obj\Debug\Y.ZSZ.DTO.pdb
+D:\项目开发\Y.ZSZ\Y.ZSZ.DTO\obj\Debug\Y.ZSZ.DTO.csproj.CoreCompileInputs.cache
